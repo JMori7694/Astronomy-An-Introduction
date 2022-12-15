@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Astronomy: Amateur Astronomy</title>
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Amateur Astronomy, Messier Objects, Astrophotography">
+    <link rel="stylesheet" href="astroStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Amateur Astronomy</h1>
+        <p>Header <a
+                href="https://pxhere.com/en/photo/1438039?utm_content=shareClip&utm_medium=referral&utm_source=pxhere">Photo
+                by Felix Mittermeier</a> form PxHere</p>
+    </header>
+
+    <nav>
+        <ul id="nav1">
+            <li id="home">
+                <a href="index.html"><i class="fa fa-home"></i>&nbsp;Astronomy: An Introduction</a>
+            </li>
+            <li class="active">
+                <a href="about.html">What is Astronomy?</a>
+            </li>
+            <li class="dropdown1">
+                <a href="objects.html" class="dropbtn1">Types of Objects&nbsp;<i class="fa fa-chevron-down"></i></a>
+                <div class="dropdownContent1">
+                    <a href="visible.html">Visible to the Naked Eye</a>
+                    <a href="deepSky.html">Deep Sky Objects</a>
+                </div>
+            </li>
+        </ul>
+
+        <ul id="nav2">
+            <li class="active1">
+                <a href="amateurAstro.html">Amateur Astronomy</a>
+            </li>
+            <li class="dropdown2">
+                <a href="telescopes.html" class="dropbtn2">Telescopes&nbsp;<i class="fa fa-chevron-down"></i></a>
+                <div class="dropdownContent2">
+                    <a href="observatories.html">Observatories</a>
+                </div>
+            </li>
+            <li class="dropdown2">
+                <a href="constellations.html" class="dropbtn2">Constellations&nbsp;<i
+                        class="fa fa-chevron-down"></i></a>
+                <div class="dropdownContent2">
+                    <a href="northConst.html">Northern Hemisphere</a>
+                    <a href="southConst.html">Southern Hemisphere</a>
+                </div>
+            </li>
+        </ul>
+        <ul id="nav3">
+            <li class="dropdown3">
+                <a href="messier.html" class="dropbtn3">Messier Objects</a>
+            </li>
+            <li class="dropdown3">
+                <a href="astroPhoto.html" class="dropbtn3">Astrophotography</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Button from  https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+    and https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top -->
+    <button type="button" onclick="topFunction()" id="toTop" title="Go to top"><i class="fa fa-arrow-up"></i>
+        Top</button>
+
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("toTop");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <h1 id="h1Image">
+        <img src="Images/7058956_814-ai.jpg" alt="under construction" width="1030" class="img1">
+        <img src="Images/7058956_814-ai-2.jpg" alt="under construction" width="515" class="img2">
+        <p id="underConstruction">
+            <a
+                href="https://www.freepik.com/free-vector/website-construction-maintenance-work-error_7058956.htm#page=2&query=under%20construction&position=44&from_view=search&track=sph">
+                Image by upklyak</a> on Freepik
+        </p>
+    </h1>
+
+    <div id="mainTxt">
+        <h1>Vitae Curabitur Duis Tortor Enim Morbi Aliquet Nibh</h1>
+        <p>Aptent nisl ipsum mollis nisi tortor massa adipiscing
+            habitant curae; odio sagittis arcu. Velit vitae, rhoncus
+            tellus platea pretium porta sed ligula Lectus class mattis
+            ante pharetra imperdiet Dignissim cras, augue sociis
+            sapien felis. Rutrum id facilisi lorem mus, euismod sem
+            ante. Iaculis, id enim aptent magna imperdiet ornare ipsum
+            sagittis proin semper velit cursus at sit cras ad mus quis
+            maecenas. Id primis sociosqu fusce dictum, gravida odio
+            malesuada mattis dignissim at felis ante integer blandit
+            tempus fames. Amet ut magna. Auctor euismod consequat arcu
+            consequat velit massa vivamus sociosqu sit ullamcorper. Nibh
+            aliquet in tempor nullam Ultrices nullam.</p>
+
+        <h2>Dis Id</h2>
+        <p>Consectetuer. Integer elementum dis. Donec ornare vulputate suspendisse odio luctus
+            ultricies nisl donec nam lobortis per dis. Fermentum magna faucibus integer litora montes
+            vitae feugiat consectetuer erat enim risus blandit penatibus lobortis tincidunt dapibus
+            porttitor lobortis mollis, gravida tempor posuere curabitur consectetuer tortor non
+            pharetra mollis enim litora elementum libero inceptos etiam potenti eros pretium.
+            Ullamcorper Sodales ultrices quam luctus nam senectus. Hendrerit fames. Neque justo
+            mauris. Egestas mauris torquent nascetur per eros leo posuere semper dui cubilia ante
+            justo. Feugiat vel habitasse posuere eleifend semper potenti mattis per suspendisse
+            lacinia nunc etiam. Molestie nec vulputate ut id in accumsan vestibulum. Ultricies nisl
+            vivamus cursus semper. Suscipit consectetuer justo at massa risus facilisi parturient,
+            eleifend pellentesque. Diam pulvinar mus integer placerat lacus lacus placerat fringilla
+            dignissim lectus primis integer quis aenean, auctor nisl ultricies risus pulvinar magna.
+            Sed congue pede. Commodo. Et venenatis augue justo fusce enim et. In congue Mauris
+            commodo.</p>
+
+        <h2>Accumsan Vivamus Facilisi Odio Hendrerit</h2>
+        <p>Hac etiam ornare, vestibulum. Parturient ornare leo est hendrerit eget id lacus lacus
+            placerat, dapibus sollicitudin egestas et vehicula erat parturient posuere. Penatibus
+            imperdiet aenean aptent ac. Mus euismod. Accumsan pede varius. Elementum phasellus,
+            posuere etiam dignissim mollis, maecenas dapibus dignissim ridiculus. Rhoncus tincidunt
+            penatibus vivamus hac justo quis nascetur condimentum maecenas consectetuer augue ornare
+            metus pharetra fermentum senectus Habitasse imperdiet platea fermentum aliquet arcu eget
+            curabitur tincidunt cras conubia. Duis etiam eu Ad placerat, nunc, velit blandit, orci,
+            pulvinar purus fames sodales phasellus iaculis. Duis conubia. Arcu porttitor lacus.
+            Adipiscing sem. Sem ante enim egestas neque torquent metus sociosqu, netus ornare dapibus
+            praesent est bibendum, taciti porta molestie dis diam nibh conubia dolor, dis natoque
+            imperdiet congue quis. Habitant habitasse commodo suspendisse. Non mattis fringilla dolor
+            in ridiculus commodo ullamcorper lectus aliquet rhoncus dignissim. Varius per congue
+            mattis platea praesent. Tempor ullamcorper metus elementum vulputate nibh mi massa
+            imperdiet venenatis mauris erat pulvinar. Fringilla praesent. Egestas.</p>
+
+        <p>Aenean vulputate magna. Ante nunc vehicula montes sed lobortis augue quam fusce arcu orci
+            nec tristique blandit sociis vivamus sit nisl dolor libero vitae cursus faucibus dis
+            suspendisse ipsum. Volutpat massa. Fames adipiscing. Ultrices neque proin, felis fames.
+            Augue nisl fusce orci lobortis nisl mollis nisl libero est consectetuer senectus libero
+            egestas urna elementum cubilia curabitur vulputate, faucibus. Semper Augue varius sociis
+            class. Penatibus. Ridiculus massa nunc consequat elit. Venenatis eleifend proin magna
+            nullam. Venenatis volutpat leo dignissim. Semper tincidunt amet mus quam morbi venenatis
+            proin egestas interdum erat adipiscing velit libero quis pretium massa. Nisl facilisi diam
+            etiam feugiat accumsan varius viverra eleifend massa. Turpis mattis risus. Praesent
+            sagittis per integer primis scelerisque id venenatis.</p>
+
+        <p>Congue class purus class mi condimentum ipsum, viverra, sodales sem. Varius pede torquent
+            sed cursus, integer quisque lorem ornare feugiat a quis Diam tempor venenatis egestas ad
+            aenean vulputate ridiculus primis morbi suscipit dis. Tempor. Mus nunc vel cum. Imperdiet
+            duis nonummy et id cursus torquent leo nostra massa est habitant sem egestas, hymenaeos
+            cras sagittis hac enim hymenaeos fusce aenean nisl sociosqu mus. Luctus hac amet
+            consectetuer volutpat rutrum. Fames litora posuere. Libero facilisis.</p>
+    </div>
+
+    <hr class="rounded">
+
+    <div class="commentContainer">
+        <form method="post" name="comment" action="javascript:void(0)">
+            <label for="commentBox"><i class="fa fa-comment"></i> Have any comments or
+                questions?</label><br>
+            <textarea id="commentBox" name="commentBox" cols="50" rows="3" maxlength="1000"
+                placeholder="Doesn't submit anywhere"></textarea><br>
+            <label for="email">Email: </label>
+            <input id="email" name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            <button type="submit" disabled>Submit</button>
+            <button type="reset"><i class="fa fa-remove"></i></button>
+        </form>
+    </div>
+
+</body>
+
+<footer>
+    <p><a href="references.html"><i class="fa fa-asterisk"></i>&nbsp;References</a></p>
+    <div>
+        <script>
+            $(document).ready(function () {
+                $("footer div").html("Updated on: " + document.lastModified);
+            });
+        </script>
+    </div>
+</footer>
+
+</html>

@@ -1,0 +1,731 @@
+/* Stylesheet for the Final Project
+    Style for the Home Page 
+    
+    List of Colors
+    Amethyst: #9966CC
+    Begonia: #FA6E79
+    Bellflower Color (kikiyou-iro): #5D3F6A
+    Cosmic Latte: #FFF8E7
+    Eigengrau: #16161D */
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Custom scrollbar in the navigation bar for overflow */
+::-webkit-scrollbar {
+    height: .6em;
+}
+
+::-webkit-scrollbar-track {
+    background: #FAEBEC;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FA3C4B;
+    border-radius: .5em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #FA0A1D;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #16161D;
+    color: #FFF8E7;
+    font-size: 1em;
+    margin-bottom: 3em;
+}
+
+header {
+    background-image: url("Images/galaxy-sky-atmosphere-purple-astronomical-object-night-1438039-pxhere.com.jpg");
+    background-position: center;
+}
+
+header h1 {
+    text-align: center;
+    padding-top: .8em;
+    text-shadow: -.1em 0 .1em #16161D, 0 .1em .1em #16161D, .1em 0 .1em #16161D, 0 -.1em .1em #16161D;
+}
+
+header p {
+    padding: .3em 0;
+    background-color: #16161D;
+    text-align: center;
+    font-size: .7em;
+}
+
+header .searchBox {
+    display: block;
+    margin: auto;
+    padding-bottom: .5em;
+    color: #FFF8E7;
+    text-align: center;
+}
+
+header input {
+    background-color: #FFF8E7;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+div h1 {
+    color: #9966CC;
+}
+
+div h2 {
+    color: #D19AFF;
+}
+
+div h3 {
+    color: #FFD2FF;
+}
+
+div .colors {
+    display: block;
+}
+
+/* Formats the underConstruction id */
+#underConstruction {
+    text-align: center;
+    font-size: .5em;
+}
+
+/* Formats links */
+a {
+    text-decoration: none;
+    color: #FA6E79;
+}
+
+/* Formats the h1 image */
+#h1Image img.img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#h1Image img.img2 {
+    display: none;
+}
+
+/* Formats the navigation bar */
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    box-shadow: 0em .5em 1em #000000;
+    z-index: 10;
+}
+
+nav ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    border-right: .2em #FFF8E7 solid;
+    white-space: nowrap;
+}
+
+#home {
+    background-color: #2E133A;
+}
+
+nav li.active1 a {
+    background-color: #707F6A;
+}
+
+nav li.active1 a:hover {
+    background-color: #77946A;
+}
+
+nav li.active a {
+    background-color: #5D3F6A;
+}
+
+#home a:hover,
+nav li.active a:hover {
+    background-color: #906F9D;
+}
+
+/* Formats the 1st Navigation bar */
+#nav1 {
+    background-color: #460001;
+    width: 100%;
+}
+
+#nav1 li a,
+.dropbtn1 {
+    display: inline-flex;
+    color: #FFF8E7;
+    text-align: center;
+    padding: .8em 2em;
+    text-decoration: none;
+}
+
+#nav1 .dropdown1:hover .dropbtn1 {
+    background-color: #80001E;
+}
+
+#nav1 li.dropdown1 {
+    display: inline-block;
+    position: relative;
+}
+
+#nav1 .dropdownContent1 a:hover {
+    background-color: #9E1432;
+}
+
+#nav1 .dropdownContent1 {
+    display: none;
+    position: absolute;
+    background-color: #BC3649;
+    min-width: 100%;
+    box-shadow: 0em 1em 1em #000000;
+    z-index: 9;
+}
+
+#nav1 .dropdownContent1 a {
+    color: #FFF8E7;
+    padding: 1em 2em;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+#nav1 .dropdown1:hover .dropdownContent1 {
+    display: block;
+}
+
+/* Formats the 2nd Navigation bar */
+#nav2 {
+    background-color: #630005;
+    width: 100%;
+}
+
+#nav2 li a,
+.dropbtn2 {
+    display: inline-flex;
+    color: #FFF8E7;
+    text-align: center;
+    padding: .8em 2em;
+    text-decoration: none;
+}
+
+#nav2 .dropdown2:hover .dropbtn2 {
+    background-color: #9E1432;
+}
+
+#nav2 li.dropdown2 {
+    display: inline-block;
+    position: relative;
+}
+
+#nav2 .dropdownContent2 a:hover {
+    background-color: #BC3649;
+}
+
+#nav2 .dropdownContent2 {
+    display: none;
+    position: absolute;
+    background-color: #DB5260;
+    min-width: 100%;
+    box-shadow: 0em 1em 1em #000000;
+    z-index: 8;
+}
+
+#nav2 .dropdownContent2 a {
+    color: #16161D;
+    padding: 1em 2em;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+#nav2 .dropdown2:hover .dropdownContent2 {
+    display: block;
+}
+
+/* Formats the 3rd Navigation bar */
+#nav3 {
+    background-color: #80001E;
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+#nav3 li a,
+.dropbtn3 {
+    display: inline-flex;
+    color: #FFF8E7;
+    text-align: center;
+    padding: .8em 2em;
+    text-decoration: none;
+}
+
+#nav3 .dropdown3:hover .dropbtn3 {
+    background-color: #BC3649;
+}
+
+#nav3 li.dropdown3 {
+    display: inline-block;
+    position: relative;
+}
+
+#nav3 .dropdownContent3 a:hover {
+    background-color: #DB5260;
+}
+
+#nav3 .dropdownContent3 {
+    display: none;
+    position: absolute;
+    background-color: #FA6E79;
+    min-width: 100%;
+    box-shadow: 0 1em 1em #000000;
+    z-index: 7;
+}
+
+#nav3 .dropdownContent3 a {
+    color: #16161D;
+    padding: 1em 2em;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+#nav3 .dropdown3:hover .dropdownContent3 {
+    display: block;
+}
+
+/* Formats the 4th Navigation bar */
+#nav4 {
+    background-color: #9E1432;
+    width: 100%;
+}
+
+#nav4 li a,
+.dropbtn4 {
+    display: inline-flex;
+    color: #FFF8E7;
+    text-align: center;
+    padding: .8em 2em;
+    text-decoration: none;
+}
+
+#nav4 .dropdown4:hover .dropbtn4 {
+    background-color: #FA6E79;
+    color: #16161D;
+}
+
+#nav4 li.dropdown4 {
+    display: inline-block;
+    position: relative;
+}
+
+#nav4 .dropdownContent3 a:hover {
+    background-color: #FF8A93;
+}
+
+#nav4 .dropdownContent4 {
+    display: none;
+    position: absolute;
+    background-color: #FFA6AD;
+    min-width: 100%;
+    box-shadow: 0 1em 1em #000000;
+    z-index: 6;
+}
+
+#nav4 .dropdownContent4 a {
+    color: #16161D;
+    padding: 1em 2em;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+#nav4 .dropdown4:hover .dropdownContent4 {
+    display: block;
+}
+
+/* Formats home link on reference page */
+.homeIcon {
+    width: fit-content;
+    padding: .8em 1em;
+    background-color: #2E133A;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.homeIcon a {
+    color: #FFF8E7
+}
+
+/* Formats To Top button */
+#toTop {
+    display: none;
+    position: fixed;
+    bottom: .5em;
+    right: .8em;
+    z-index: 99;
+    font-size: 1em;
+    border: none;
+    outline: none;
+    background-color: #FFD368;
+    color: #302B1E;
+    cursor: pointer;
+    padding: .5em;
+    border-radius: .2em;
+}
+
+#toTop:hover {
+    background-color: #777162;
+    color: #FFF8E7
+}
+
+/* Formats embeded Youtube videos */
+.videoContainer {
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    padding-top: 45%;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Formats the main text */
+#mainTxt {
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+/* Formats photo gallery */
+section.gallContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 95%;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.gallAtt {
+    margin: auto;
+    padding: .1em 1em;
+    font-size: .6em;
+    text-align: center;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.constAtt {
+    font-size: .7em;
+}
+
+/* Formats tables */
+table {
+    margin: auto;
+    background-color: #7A9E6A;
+    text-align: center;
+}
+
+table caption {
+    background-color: #545454;
+}
+
+table caption a {
+    font-size: 1.5em;
+}
+
+/* Formats seperator bar */
+hr.rounded {
+    border-top: .4em solid #604A6A;
+    border-radius: .4em;
+}
+
+/* Formats Comment form */
+.commentContainer {
+    margin: 1em auto;
+    text-align: center;
+}
+
+form button {
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: .4em;
+}
+
+form button[type=submit] {
+    background-color: #7A9E6A;
+    font-weight: bold;
+}
+
+form button[type=reset] {
+    background-color: #D9001E;
+}
+
+/* Formats the footer */
+footer {
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    nav {
+        position: static;
+        box-shadow: 0em .5em 1em #000000;
+        z-index: 10;
+        overflow: auto;
+    }
+
+    nav ul {
+        display: inline-flexbox;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: auto;
+    }
+
+    #nav1 .dropdown1:hover .dropdownContent1 {
+        display: none;
+    }
+
+    #nav2 .dropdown2:hover .dropdownContent2 {
+        display: none;
+    }
+
+    #nav3 .dropdown3:hover .dropdownContent3 {
+        display: none;
+    }
+
+    #nav4 .dropdown4:hover .dropdownContent4 {
+        display: none;
+    }
+
+    /* Formats the h1 image */
+    #h1Image img.img1 {
+        display: none;
+    }
+
+    #h1Image img.img2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    #mainTxt {
+        width: 90%;
+    }
+
+    .colors ul {
+        width: 100%;
+    }
+
+    /* Formats photo gallery */
+    section.gallContainer {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    nav {
+        position: static;
+        box-shadow: 0em .5em 1em #000000;
+        z-index: 10;
+        overflow: auto;
+    }
+
+    nav ul {
+        display: inline-flexbox;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: auto;
+    }
+
+    #nav1 .dropdown1:hover .dropdownContent1 {
+        display: none;
+    }
+
+    #nav2 .dropdown2:hover .dropdownContent2 {
+        display: none;
+    }
+
+    #nav3 .dropdown3:hover .dropdownContent3 {
+        display: none;
+    }
+
+    #nav4 .dropdown4:hover .dropdownContent4 {
+        display: none;
+    }
+
+    /* Formats the h1 image */
+    #h1Image img.img1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    #h1Image img.img2 {
+        display: none;
+    }
+
+    .colors ul {
+        width: 100%;
+    }
+
+    /* Formats photo gallery */
+    section.gallContainer {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    nav {
+        position: static;
+        box-shadow: 0em .5em 1em #000000;
+        z-index: 10;
+        overflow: auto;
+    }
+
+    nav ul {
+        display: inline-flexbox;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: auto;
+    }
+
+    #nav1 .dropdown1:hover .dropdownContent1 {
+        display: none;
+    }
+
+    #nav2 .dropdown2:hover .dropdownContent2 {
+        display: none;
+    }
+
+    #nav3 .dropdown3:hover .dropdownContent3 {
+        display: none;
+    }
+
+    #nav4 .dropdown4:hover .dropdownContent4 {
+        display: none;
+    }
+
+    /* Formats the h1 image */
+    #h1Image img.img1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    #h1Image img.img2 {
+        display: none;
+    }
+
+    /* Formats part of reference page */
+    ul.colorList {
+        float: left;
+        width: 40%;
+    }
+
+    /* Formats photo gallery */
+    section.gallContainer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    /* Formats the navigation bar */
+    nav {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        box-shadow: 0em .5em 1em #000000;
+        z-index: 10;
+        overflow: visible;
+    }
+
+    nav ul {
+        display: inline-flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+    }
+
+    #nav1 .dropdown1:hover .dropdownContent1 {
+        display: block;
+    }
+
+    #nav2 .dropdown2:hover .dropdownContent2 {
+        display: block;
+    }
+
+    #nav3 .dropdown3:hover .dropdownContent3 {
+        display: block;
+    }
+
+    #nav4 .dropdown4:hover .dropdownContent4 {
+        display: block;
+    }
+
+    /* Formats the h1 image */
+    #h1Image img.img1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    #h1Image img.img2 {
+        display: none;
+    }
+
+    /* Formats part of reference page */
+    ul.colorList {
+        float: left;
+        width: 40%;
+    }
+
+}

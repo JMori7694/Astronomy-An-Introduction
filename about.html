@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Astronomy: What is Astronomy?</title>
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="About, What is Astronomy, Amateur Astronomy, Telescopes, Constellations">
+    <link rel="stylesheet" href="astroStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>What is Astronomy?</h1>
+        <p>Header <a
+                href="https://pxhere.com/en/photo/1438039?utm_content=shareClip&utm_medium=referral&utm_source=pxhere">Photo
+                by Felix Mittermeier</a> form PxHere</p>
+    </header>
+
+    <nav>
+        <ul id="nav1">
+            <li id="home">
+                <a href="index.html"><i class="fa fa-home"></i>&nbsp;Astronomy: An Introduction</a>
+            </li>
+            <li class="active1">
+                <a href="about.html">What is Astronomy?</a>
+            </li>
+            <li class="dropdown1">
+                <a href="objects.html" class="dropbtn1">Types of Objects&nbsp;<i class="fa fa-chevron-down"></i></a>
+                <div class="dropdownContent1">
+                    <a href="visible.html">Visible to the Naked Eye</a>
+                    <a href="deepSky.html">Deep Sky Objects</a>
+                </div>
+            </li>
+        </ul>
+
+        <ul id="nav2">
+            <li class="dropdown2">
+                <a href="amateurAstro.html" class="dropbtn2">Amateur Astronomy&nbsp;<i
+                        class="fa fa-chevron-down"></i></a>
+                <div class="dropdownContent2">
+                    <a href="messier.html">Messier Objects</a>
+                    <a href="astroPhoto.html">Astrophotography</a>
+                </div>
+            </li>
+            <li class="dropdown2">
+                <a href="telescopes.html" class="dropbtn2">Telescopes&nbsp;<i class="fa fa-chevron-down"></i></a>
+                <div class="dropdownContent2">
+                    <a href="observatories.html">Observatories</a>
+                </div>
+            </li>
+            <li class="dropdown2">
+                <a href="constellations.html" class="dropbtn2">Constellations&nbsp;<i
+                        class="fa fa-chevron-down"></i></a>
+                <div class="dropdownContent2">
+                    <a href="northConst.html">Northern Hemisphere</a>
+                    <a href="southConst.html">Southern Hemisphere</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Button from  https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+    and https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top -->
+    <button type="button" onclick="topFunction()" id="toTop" title="Go to top"><i class="fa fa-arrow-up"></i>
+        Top</button>
+
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("toTop");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <h1 id="h1Image">
+        <img src="Images/7058956_814-ai.jpg" alt="under construction" width="1030" class="img1">
+        <img src="Images/7058956_814-ai-2.jpg" alt="under construction" width="515" class="img2">
+        <p id="underConstruction">
+            <a
+                href="https://www.freepik.com/free-vector/website-construction-maintenance-work-error_7058956.htm#page=2&query=under%20construction&position=44&from_view=search&track=sph">
+                Image by upklyak</a> on Freepik
+        </p>
+    </h1>
+    <div class="videoContainer">
+        <iframe class="video" src="https://www.youtube.com/embed/0rHUDWjR5gg" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+
+    <div id="mainTxt">
+        <h1>What is Astronomy?</h1>
+        <p>Astronomy is the study of the heavens. Whether that be simply looking up and observing, or making and using
+            specialized equipment, anyone can be an astronomer. Amateur astronomers are the average backyard hobbyists;
+            people who observe without equipment, with binoculors, affordable or invested in a telescope.
+        </p><br>
+
+        <h1>Music</h1>
+        <h2>Gustav Holst - The Planets, Op. 32</h2>
+        <div class="videoContainer">
+            <iframe class="video" src="https://www.youtube.com/embed/3OD_HzdZwKk" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <p>Aptent nisl ipsum mollis nisi tortor massa adipiscing
+            habitant curae; odio sagittis arcu. Velit vitae, rhoncus
+            tellus platea pretium porta sed ligula Lectus class mattis
+            ante pharetra imperdiet Dignissim cras, augue sociis
+            sapien felis. Rutrum id facilisi lorem mus, euismod sem
+            ante. Iaculis, id enim aptent magna imperdiet ornare ipsum
+            sagittis proin semper velit cursus at sit cras ad mus quis
+            maecenas.</p><br>
+
+        <h1>Paper Publication</h1>
+        <p>There are many books and magazines that offer information on astronomy. A good basic reference book is
+            <a href="references.html#pocketGuide">National Geographic's Pocket Guide to the Night Sky of North
+                America</a>. Amore detailed reference book is <a href="references.html#audubon">National
+                Audubon Society's Field Guide to the Night Sky</a>. For quick reference to current events, such as
+            meteor showers and other astrological events, <a href="https://astronomy.com/">Astronomy Magazine</a> is a
+            good magazine and website.
+        </p><br>
+
+        <h1>Software</h1>
+        <p>There are many different kinds of software that astronomers can use. There are many smartphone applications
+            that can be used, as well as ranges of computer software. A well known computer software is called
+            <a
+                href="https://starrynight.com/starry-night-8-professional-astronomy-telescope-control-software.html">StarryNight</a>.
+            They offer different levels of software depending on what the user needs; from basic to
+            professional, you can find one that suits your needs.
+        </p><br>
+    </div>
+
+    <hr class="rounded">
+
+    <div class="commentContainer">
+        <form method="post" name="comment" action="javascript:void(0)">
+            <label for="commentBox"><i class="fa fa-comment"></i> Have any comments or
+                questions?</label><br>
+            <textarea id="commentBox" name="commentBox" cols="50" rows="3" maxlength="1000"
+                placeholder="Doesn't submit anywhere"></textarea><br>
+            <label for="email">Email: </label>
+            <input id="email" name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            <button type="submit" disabled>Submit</button>
+            <button type="reset"><i class="fa fa-remove"></i></button>
+        </form>
+    </div>
+
+</body>
+
+<footer>
+    <p><a href="references.html"><i class="fa fa-asterisk"></i>&nbsp;References</a></p>
+    <div>
+        <script>
+            $(document).ready(function () {
+                $("footer div").html("Updated on: " + document.lastModified);
+            });
+        </script>
+    </div>
+</footer>
+
+</html>

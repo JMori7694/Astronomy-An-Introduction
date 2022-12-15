@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Astronomy: References</title>
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="astroStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>References + Resources</h1>
+        <p>Header <a
+                href="https://pxhere.com/en/photo/1438039?utm_content=shareClip&utm_medium=referral&utm_source=pxhere">Photo
+                by Felix Mittermeier</a> form PxHere</p>
+    </header>
+
+    <div class="homeIcon">
+        <a href="index.html"><i class="fa fa-home"></i>&nbsp;Astronomy: An Introduction</a>
+    </div>
+
+    <!-- Button from  https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+    and https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top -->
+    <button type="button" onclick="topFunction()" id="toTop" title="Go to top"><i class="fa fa-arrow-up"></i>
+        Top</button>
+
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("toTop");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <hr class="rounded">
+
+    <section class="icons" style="overflow-x: auto;">
+        <div>
+            <h1>Icons</h1>
+        </div>
+        <table>
+            <caption><a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">Icons
+                    as Default Buttons</a>
+            </caption>
+
+            <tr title="1">
+                <td title="1"><button type="button"><i class="fa fa-adjust"></i> Adjust</button></td>
+                <td title="26"><button type="button"><i class="fa fa-bell"></i> Bell</button></td>
+                <td title="51"><button type="button"><i class="fa fa-comment"></i> Comment</button></td>
+                <td title="76"><button type="button"><i class="fa fa-files-o"></i> Files-o</button></td>
+                <td title="101"><button type="button"><i class="fa fa-hdd-o"></i> Hdd-o</button></td>
+                <td title="126"><button type="button"><i class="fa fa-pencil-square-o"></i> Pencil-square-o</button>
+                </td>
+                <td title="151"><button type="button"><i class="fa fa-search-plus"></i> Search-plus</button></td>
+                <td title="176"><button type="button"><i class="fa fa-times"></i> Times</button></td>
+            </tr>
+
+            <tr title="2">
+                <td title="2"><button type="button"><i class="fa fa-align-left"></i> Align-left</button></td>
+                <td title="27"><button type="button"><i class="fa fa-bold"></i> Bold</button></td>
+                <td title="52"><button type="button"><i class="fa fa-comments"></i> Comments</button></td>
+                <td title="77"><button type="button"><i class="fa fa-film"></i> Film</button></td>
+                <td title="102"><button type="button"><i class="fa fa-home"></i> Home</button></td>
+                <td title="127"><button type="button"><i class="fa fa-phone"></i> Phone</button></td>
+                <td title="152"><button type="button"><i class="fa fa-share"></i> Share</button></td>
+                <td title="177"><button type="button"><i class="fa fa-times-circle"></i> Times-circle</button></td>
+            </tr>
+
+            <tr title="3">
+                <td title="3"><button type="button"><i class="fa fa-align-center"></i> Align-center</button></td>
+                <td title="28"><button type="button"><i class="fa fa-book"></i> Book</button></td>
+                <td title="53"><button type="button"><i class="fa fa-compress"></i> Compress</button></td>
+                <td title="78"><button type="button"><i class="fa fa-filter"></i> Filter</button></td>
+                <td title="103"><button type="button"><i class="fa fa-image"></i> Image</button></td>
+                <td title="128"><button type="button"><i class="fa fa-phone-square"></i> Phone-square</button></td>
+                <td title="153"><button type="button"><i class="fa fa-share-square-o"></i> Share-square-o</button></td>
+                <td title="178"><button type="button"><i class="fa fa-times-circle-o"></i> Times-circle-o</button></td>
+            </tr>
+
+            <tr title="4">
+                <td title="4"><button type="button"><i class="fa fa-align-justify"></i> Align-justify</button></td>
+                <td title="29"><button type="button"><i class="fa fa-bookmark"></i> Bookmark</button></td>
+                <td title="54"><button type="button"><i class="fa fa-copy"></i> Copy</button></td>
+                <td title="79"><button type="button"><i class="fa fa-fire"></i> Fire</button></td>
+                <td title="104"><button type="button"><i class="fa fa-inbox"></i> Inbox</button></td>
+                <td title="129"><button type="button"><i class="fa fa-photo"></i> Photo</button></td>
+                <td title="154"><button type="button"><i class="fa fa-shopping-cart"></i> Shopping-cart</button></td>
+                <td title="179"><button type="button"><i class="fa fa-tint"></i> Tint</button></td>
+            </tr>
+
+            <tr title="5">
+                <td title="5"><button type="button"><i class="fa fa-align-right"></i> Align-right</button></td>
+                <td title="30"><button type="button"><i class="fa fa-bookmark-o"></i> Bookmark-o</button></td>
+                <td title="55"><button type="button"><i class="fa fa-credit-card"></i> Credit-card</button></td>
+                <td title="80"><button type="button"><i class="fa fa-flag"></i> Flag</button></td>
+                <td title="105"><button type="button"><i class="fa fa-indent"></i> Indent</button></td>
+                <td title="130"><button type="button"><i class="fa fa-picture-o"></i> Picture-o</button></td>
+                <td title="155"><button type="button"><i class="fa fa-sign-in"></i> Sign-in</button></td>
+                <td title="180"><button type="button"><i class="fa fa-trash-o"></i> Trash-o</button></td>
+            </tr>
+
+            <tr title="6">
+                <td title="6"><button type="button"><i class="fa fa-arrow-circle-down"></i> Arrow-circle-down</button>
+                </td>
+                <td title="31"><button type="button"><i class="fa fa-briefcase"></i>Briefcase</button></td>
+                <td title="56"><button type="button"><i class="fa fa-crosshairs"></i> Crosshairs</button></td>
+                <td title="81"><button type="button"><i class="fa fa-flask"></i> Flask</button></td>
+                <td title="106"><button type="button"><i class="fa fa-info-circle"></i> Info-circle</button></td>
+                <td title="131"><button type="button"><i class="fa fa-plane"></i> Plane</button></td>
+                <td title="156"><button type="button"><i class="fa fa-sign-out"></i> Sign-out</button></td>
+                <td title="181"><button type="button"><i class="fa fa-trophy"></i> Trophy</button></td>
+            </tr>
+
+            <tr title="7">
+                <td title="7"><button type="button"><i class="fa fa-arrow-circle-left"></i> Arrow-circle-left</button>
+                </td>
+                <td title="32"><button type="button"><i class="fa fa-bullhorn"></i> Bullhorn</button></td>
+                <td title="57"><button type="button"><i class="fa fa-cut"></i> Cut</button></td>
+                <td title="82"><button type="button"><i class="fa fa-folder"></i> Folder</button></td>
+                <td title="107"><button type="button"><i class="fa fa-italic"></i> Italic</button></td>
+                <td title="132"><button type="button"><i class="fa fa-play"></i> Play</button></td>
+                <td title="157"><button type="button"><i class="fa fa-signal"></i> Signal</button></td>
+                <td title="182"><button type="button"><i class="fa fa-twitter"></i> Twitter</button></td>
+            </tr>
+
+            <tr title="8">
+                <td title="8"><button type="button"><i class="fa fa-arrow-circle-o-down"></i>
+                        Arrow-circle-o-down</button>
+                </td>
+                <td title="33"><button type="button"><i class="fa fa-calendar"></i> Calendar</button></td>
+                <td title="58"><button type="button"><i class="fa fa-dedent"></i> Dedent</button></td>
+                <td title="83"><button type="button"><i class="fa fa-folder-open"></i> Folder-open</button></td>
+                <td title="108"><button type="button"><i class="fa fa-key"></i> Key</button></td>
+                <td title="133"><button type="button"><i class="fa fa-play-circle-o"></i> Play-circle-o</button></td>
+                <td title="158"><button type="button"><i class="fa fa-star"></i> Star</button></td>
+                <td title="183"><button type="button"><i class="fa fa-twitter-square"></i> Twitter-square</button></td>
+            </tr>
+
+            <tr title="9">
+                <td title="9"><button type="button"><i class="fa fa-arrow-circle-o-up"></i> Arrow-circle-o-up</button>
+                </td>
+                <td title="34"><button type="button"><i class="fa fa-camera"></i> Camera</button></td>
+                <td title="59"><button type="button"><i class="fa fa-download"></i> Download</button></td>
+                <td title="84"><button type="button"><i class="fa fa-font"></i> Font</button></td>
+                <td title="109"><button type="button"><i class="fa fa-leaf"></i> Leaf</button></td>
+                <td title="134"><button type="button"><i class="fa fa-plus"></i> Plus</button></td>
+                <td title="159"><button type="button"><i class="fa fa-star-half"></i> Star-half</button></td>
+                <td title="184"><button type="button"><i class="fa fa-unlock"></i> Unlock</button></td>
+            </tr>
+
+            <tr title="10">
+                <td title="10"><button type="button"><i class="fa fa-arrow-circle-right"></i>
+                        Arrow-circle-right</button>
+                </td>
+                <td title="35"><button type="button"><i class="fa fa-camera-retro"></i> Camera-retro</button></td>
+                <td title="60"><button type="button"><i class="fa fa-edit"></i> Edit</button></td>
+                <td title="85"><button type="button"><i class="fa fa-forward"></i> Forward</button></td>
+                <td title="110"><button type="button"><i class="fa fa-lemon-o"></i> Lemon-o</button></td>
+                <td title="135"><button type="button"><i class="fa fa-plus-circle"></i> Plus-circle</button></td>
+                <td title="160"><button type="button"><i class="fa fa-star-o"></i> Star-o</button></td>
+                <td title="185"><button type="button"><i class="fa fa-upload"></i> Upload</button></td>
+            </tr>
+
+            <tr title="11">
+                <td title="11"><button type="button"><i class="fa fa-arrow-down"></i> Arrow-down</button></td>
+                <td title="36"><button type="button"><i class="fa fa-certificate"></i> Certificate</button></td>
+                <td title="61"><button type="button"><i class="fa fa-eject"></i> Eject</button></td>
+                <td title="86"><button type="button"><i class="fa fa-gear"></i> Gear</button></td>
+                <td title="111"><button type="button"><i class="fa fa-link"></i> Link</button></td>
+                <td title="136"><button type="button"><i class="fa fa-power-off"></i> Power-off</button></td>
+                <td title="161"><button type="button"><i class="fa fa-step-backward"></i> Step-backward</button></td>
+                <td title="186"><button type="button"><i class="fa fa-user"></i> User</button></td>
+            </tr>
+
+            <tr title="12">
+                <td title="12"><button type="button"><i class="fa fa-arrow-left"></i> Arrow-left</button></td>
+                <td title="37"><button type="button"><i class="fa fa-chain"></i> Chain</button></td>
+                <td title="62"><button type="button"><i class="fa fa-envelope-o"></i> Envelope-o</button></td>
+                <td title="87"><button type="button"><i class="fa fa-gears"></i> Gears</button></td>
+                <td title="112"><button type="button"><i class="fa fa-linkedin-square"></i> Linkedin-square</button>
+                </td>
+                <td title="137"><button type="button"><i class="fa fa-print"></i> Print</button></td>
+                <td title="162"><button type="button"><i class="fa fa-step-forward"></i> Step-forward</button></td>
+                <td title="187"><button type="button"><i class="fa fa-users"></i>Users</button></td>
+            </tr>
+
+            <tr title="13">
+                <td title="13"><button type="button"><i class="fa fa-arrow-right"></i> Arrow-right</button></td>
+                <td title="38"><button type="button"><i class="fa fa-check"></i> Check</button></td>
+                <td title="63"><button type="button"><i class="fa fa-expand"></i> Expand</button></td>
+                <td title="88"><button type="button"><i class="fa fa-gift"></i> Gift</button></td>
+                <td title="113"><button type="button"><i class="fa fa-list"></i> List</button></td>
+                <td title="138"><button type="button"><i class="fa fa-qrcode"></i> Qrcode</button></td>
+                <td title="163"><button type="button"><i class="fa fa-stop"></i> Stop</button></td>
+                <td title="188"><button type="button"><i class="fa fa-video-camera"></i> Video-camera</button></td>
+            </tr>
+
+            <tr title="14">
+                <td title="14"><button type="button"><i class="fa fa-arrow-circle-up"></i> Arrow-circle-up</button></td>
+                <td title="39"><button type="button"><i class="fa fa-check-circle"></i> Check-circle</button></td>
+                <td title="64"><button type="button"><i class="fa fa-exclamation-circle"></i>
+                        Exclamation-circle</button>
+                </td>
+                <td title="89"><button type="button"><i class="fa fa-github"></i> Github</button></td>
+                <td title="114"><button type="button"><i class="fa fa-list-alt"></i> List-alt</button></td>
+                <td title="139"><button type="button"><i class="fa fa-question-circle"></i> Question-circle</button>
+                </td>
+                <td title="164"><button type="button"><i class="fa fa-square-o"></i> Square-o</button></td>
+                <td title="189"><button type="button"><i class="fa fa-volume-down"></i> Volume-down</button></td>
+            </tr>
+
+            <tr title="15">
+                <td title="15"><button type="button"><i class="fa fa-arrow-up"></i> Arrow-up</button></td>
+                <td title="40"><button type="button"><i class="fa fa-check-circle-o"></i> Check-circle-o</button></td>
+                <td title="65"><button type="button"><i class="fa fa-exclamation-triangle"></i>
+                        Exclamation-triangle</button></td>
+                <td title="90"><button type="button"><i class="fa fa-github-square"></i> Github-square</button></td>
+                <td title="115"><button type="button"><i class="fa fa-lock"></i> Lock</button></td>
+                <td title="140"><button type="button"><i class="fa fa-random"></i> Random</button></td>
+                <td title="165"><button type="button"><i class="fa fa-tag"></i> Tag</button></td>
+                <td title="190"><button type="button"><i class="fa fa-volume-off"></i> Volume-off</button></td>
+            </tr>
+
+            <tr title="16">
+                <td title="16"><button type="button"><i class="fa fa-arrows"></i> Arrows</button></td>
+                <td title="41"><button type="button"><i class="fa fa-check-square-o"></i> Check-square-o</button></td>
+                <td title="66"><button type="button"><i class="fa fa-external-link"></i> External-link</button></td>
+                <td title="91"><button type="button"><i class="fa fa-glass"></i> Glass</button></td>
+                <td title="116"><button type="button"><i class="fa fa-magnet"></i> Magnet</button></td>
+                <td title="141"><button type="button"><i class="fa fa-refresh"></i> Refresh</button></td>
+                <td title="166"><button type="button"><i class="fa fa-tags"></i> Tags</button></td>
+                <td title="191"><button type="button"><i class="fa fa-volume-up"></i> Volume-up</button></td>
+            </tr>
+
+            <tr title="17">
+                <td title="17"><button type="button"><i class="fa fa-arrows-alt"></i> Arrows-alt</button></td>
+                <td title="42"><button type="button"><i class="fa fa-chevron-down"></i> Chevron-down</button></td>
+                <td title="67"><button type="button"><i class="fa fa-eye"></i> Eye</button></td>
+                <td title="92"><button type="button"><i class="fa fa-globe"></i> Globe</button></td>
+                <td title="117"><button type="button"><i class="fa fa-mail-forward"></i> Mail-forward</button></td>
+                <td title="142"><button type="button"><i class="fa fa-remove"></i> Remove</button></td>
+                <td title="167"><button type="button"><i class="fa fa-tasks"></i> Tasks</button></td>
+                <td title="192"><button type="button"><i class="fa fa-warning"></i> Warning</button></td>
+            </tr>
+
+            <tr title="18">
+                <td title="18"><button type="button"><i class="fa fa-arrows-h"></i> Arrows-h</button></td>
+                <td title="43"><button type="button"><i class="fa fa-chevron-left"></i> Chevron-left</button></td>
+                <td title="68"><button type="button"><i class="fa fa-eye-slash"></i> Eye-slash</button></td>
+                <td title="93"><button type="button"><i class="fa fa-group"></i> Group</button></td>
+                <td title="118"><button type="button"><i class="fa fa-map-marker"></i> Map-marker</button></td>
+                <td title="143"><button type="button"><i class="fa fa-repeat"></i> Repeat</button></td>
+                <td title="168"><button type="button"><i class="fa fa-text-height"></i> Text-height</button></td>
+                <td title="193"><button type="button"><i class="fa fa-wrench"></i> Wrench</button></td>
+            </tr>
+
+            <tr title="19">
+                <td title="19"><button type="button"><i class="fa fa-arrows-v"></i> Arrows-v</button></td>
+                <td title="44"><button type="button"><i class="fa fa-chevron-right"></i> Chevron-right</button></td>
+                <td title="69"><button type="button"><i class="fa fa-facebook"></i> Facebook</button></td>
+                <td title="94"><button type="button"><i class="fa fa-hand-o-down"></i> Hand-o-down</button></td>
+                <td title="119"><button type="button"><i class="fa fa-minus"></i> Minus</button></td>
+                <td title="144"><button type="button"><i class="fa fa-retweet"></i> Retweet</button></td>
+                <td title="169"><button type="button"><i class="fa fa-text-width"></i> Text-width</button></td>
+            </tr>
+
+            <tr title="20">
+                <td title="20"><button type="button"><i class="fa fa-asterisk"></i> Asterisk</button></td>
+                <td title="45"><button type="button"><i class="fa fa-chevron-up"></i> Chevron-up</button></td>
+                <td title="70"><button type="button"><i class="fa fa-facebook-f"></i> Facebok-f</button></td>
+                <td title="95"><button type="button"><i class="fa fa-hand-o-left"></i> Hand-o-left</button></td>
+                <td title="120"><button type="button"><i class="fa fa-minus-circle"></i> Minus-circle</button></td>
+                <td title="145"><button type="button"><i class="fa fa-road"></i> Road</button></td>
+                <td title="170"><button type="button"><i class="fa fa-th"></i> Th</button></td>
+            </tr>
+
+            <tr title="21">
+                <td title="21"><button type="button"><i class="fa fa-backward"></i> Backward</button></td>
+                <td title="46"><button type="button"><i class="fa fa-clock-o"></i> Clock-o</button></td>
+                <td title="71"><button type="button"><i class="fa fa-facebook-square"></i> Facebook-square</button></td>
+                <td title="96"><button type="button"><i class="fa fa-hand-o-right"></i> Hand-o-right</button></td>
+                <td title="121"><button type="button"><i class="fa fa-music"></i> Music</button></td>
+                <td title="146"><button type="button"><i class="fa fa-rotate-right"></i> Rotate-right</button></td>
+                <td title="171"><button type="button"><i class="fa fa-th-large"></i> Th-large</button></td>
+            </tr>
+
+            <tr title="22">
+                <td title="22"><button type="button"><i class="fa fa-ban"></i> Ban</button></td>
+                <td title="47"><button type="button"><i class="fa fa-close"></i> Close</button></td>
+                <td title="72"><button type="button"><i class="fa fa-fast-backward"></i> Fast-backward</button></td>
+                <td title="97"><button type="button"><i class="fa fa-hand-o-up"></i> Hand-o-up</button></td>
+                <td title="122"><button type="button"><i class="fa fa-outdent"></i> Outdent</button></td>
+                <td title="147"><button type="button"><i class="fa fa-rss"></i> Rss</button></td>
+                <td title="172"><button type="button"><i class="fa fa-th-list"></i> Th-list</button></td>
+            </tr>
+
+            <tr title="23">
+                <td title="23"><button type="button"><i class="fa fa-bar-chart-o"></i> Bar-chart-o</button></td>
+                <td title="48"><button type="button"><i class="fa fa-cloud"></i> Cloud</button></td>
+                <td title="73"><button type="button"><i class="fa fa-fast-forward"></i> Fast-forward</button></td>
+                <td title="98"><button type="button"><i class="fa fa-headphones"></i> Headphones</button></td>
+                <td title="123"><button type="button"><i class="fa fa-paperclip"></i> Paperclip</button></td>
+                <td title="148"><button type="button"><i class="fa fa-scissors"></i> Scissors</button></td>
+                <td title="173"><button type="button"><i class="fa fa-thumbs-o-down"></i> Thumbs-o-down</button></td>
+            </tr>
+
+            <tr title="24">
+                <td title="24"><button type="button"><i class="fa fa-bar-chart"></i> Bar-chart</button></td>
+                <td title="49"><button type="button"><i class="fa fa-cog"></i> Cog</button></td>
+                <td title="74"><button type="button"><i class="fa fa-feed"></i> Feed</button></td>
+                <td title="99"><button type="button"><i class="fa fa-heart"></i> Heart</button></td>
+                <td title="124"><button type="button"><i class="fa fa-pause"></i> Pause</button></td>
+                <td title="149"><button type="button"><i class="fa fa-search"></i> Search</button></td>
+                <td title="174"><button type="button"><i class="fa fa-thumbs-o-up"></i> Thumbs-o-up</button></td>
+            </tr>
+
+            <tr title="25">
+                <td title="25"><button type="button"><i class="fa fa-barcode"></i> Barcode</button></td>
+                <td title="50"><button type="button"><i class="fa fa-cogs"></i> Cogs</button></td>
+                <td title="75"><button type="button"><i class="fa fa-file-o"></i> File-o</button></td>
+                <td title="100"><button type="button"><i class="fa fa-heart-o"></i> Heart-o</button></td>
+                <td title="125"><button type="button"><i class="fa fa-pencil"></i> Pencil</button></td>
+                <td title="150"><button type="button"><i class="fa fa-search-minus"></i> Search-minus</button></td>
+                <td title="175"><button type="button"><i class="fa fa-thumb-tack"></i> Thumb-tack</button></td>
+            </tr>
+        </table>
+    </section>
+
+    <hr class="rounded">
+
+    <section class="colors">
+        <div>
+            <h1>Colors</h1>
+        </div>
+        <p>Colors are sourced from <a href="https://convertingcolors.com/">Converting Colors</a></p>
+        <ul class="colorList">
+            <li><a href="https://convertingcolors.com/hex-color-9966CC.html" style="color: #FFF8E7">Amethyst
+                    <span style="color: #9966CC;">#9966CC</span></a></li>
+            <ul>
+                <li><span style="color: #D19AFF;">#D19AFF</span></a></li>
+                <li><span style="color: #FFD2FF;">#FFD2FF</span></li>
+            </ul><br>
+            <li><a href="https://convertingcolors.com/hex-color-FA6E79.html" style="color: #FFF8E7">Begonia <span
+                        style="color: #FA6E79;">#FA6E79</span></a></li>
+            <ul>
+                <li><span style="background-color: #FFF8E7; color: #460001;">#460001</span></li>
+                <li><span style="background-color: #FFF8E7; color: #630005;">#630005</span></li>
+                <li><span style="color: #80001E;">#80001E</span></li>
+                <li><span style="color: #9E1432;">#9E1432</span></li>
+                <li><span style="color: #BC3649;">#BC3649</span></li>
+                <li><span style="color: #DB5260;">#DB5260</span></li>
+                <li><span style="color: #FF8A93;">#FF8A93</span></li>
+                <li><span style="color: #FFA6AD;">#FFA6AD</span></li>
+                <li><span style="color: #FA0A1D;">#FA0A1D</span></li>
+                <li><span style="color: #FA3C4B;">#FA3C4B</span></li>
+                <li><span style="color: #FAEBEC;">#FAEBEC</span></li>
+            </ul><br>
+            <li><a href="https://convertingcolors.com/hex-color-5D3F6A.html" style="color: #FFF8E7;">Bellflower Color
+                    (kikiyou-iro) <span style="color: #5D3F6A;">#5D3F6A</span></a></li>
+            <ul>
+                <li><span style="background-color: #FFF8E7; color: #2E133A;">#2E133A</span></li>
+                <li><span style="color: #604A6A;">#604A6A</span></li>
+                <li><span style="color: #707F6A;">#707F6A</span></li>
+                <li><span style="color: #77946A;">#77946A</span></li>
+                <li><span style="color: #7A9E6A;">#7A9E6A</span></li>
+                <li><span style="color: #906F9D;">#906F9D</span></li>
+            </ul><br>
+            <li><a href="https://convertingcolors.com/hex-color-000000.html" style="color: #FFF8E7;">Black <span
+                        style="background-color: #FFF8E7; color: #000000;">#000000</span></a></li><br>
+            <li><a href="https://convertingcolors.com/hex-color-FFF8E7.html" style="color: #FFF8E7;">Cosmic Latte <span
+                        style="color: #FFF8E7;">#FFF8E7</span></a></li>
+            <ul>
+                <li><span style="color: #FFD368;">#FFD368</span></li>
+                <li><span style="color: #777162;">#777162</span></li>
+            </ul><br>
+            <li><a href="https://convertingcolors.com/hex-color-16161D.html" style="color: #FFF8E7;">Eigengrau <span
+                        style="background-color: #FFF8E7; color: #16161D;">#16161D</span></a></li>
+        </ul>
+
+        <div class="colorsDesc">
+            <p>Cosmic Latte is the average color of the universe. Eigengrau is the color you see in complete darkness.
+            </p>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Cosmic_latte">Wikipedia: Cosmic Latte</a></li><br>
+                <li style="list-style: none;"><img
+                        src="https://images.immediate.co.uk/production/volatile/sites/4/2021/07/GettyImages-1218538247-c-6105bdd.jpg?quality=90&webp=true&resize=940,400"
+                        style="width: 60%; height: auto;"
+                        alt="Picture of a view of the Milky Way. The upper left side is the brightest, being the center and shows cosmic latte-an off white beige-as well as the other bright reddish colors, 
+                and right side being darker and more purplish. Entire image is speckled with stars. A bright star is in the bottom left."><br>
+                    <a href="https://www.sciencefocus.com/space/universe-average-colour-cosmic-latte/">
+                        Science Focus: The Universe has an average colour - and it's called cosmic latte</a>
+                </li><br>
+                <li><a href="https://en.wikipedia.org/wiki/Eigengrau">Wikipedia: Eigengrau</a><br><br>
+                <li style="list-style:none;">
+                    <p style="float:right;margin-right:10%;width:30%;">
+                        By <a
+                            href="//commons.wikimedia.org/w/index.php?title=User:Private_Detective&action=edit&redlink=1"
+                            class="new" title="User:Private Detective (page does not exist)">Private
+                            Detective </a> - Own work, <a href="https://creativecommons.org/licenses/by-sa/4.0"
+                            title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a
+                            href="https://commons.wikimedia.org/w/index.php?curid=50454221">Link</a>
+                    </p>
+                    <a
+                        href="https://commons.wikimedia.org/wiki/File:Eigengrau-vs-black.png#/media/File:Eigengrau-vs-black.png">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Eigengrau-vs-black.png"
+                            alt="Eigengrau-vs-black.png" style="width:20%;">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <hr class="rounded" stlye="clear: left;">
+
+    <section class="books">
+        <div>
+            <h1>Books</h1>
+        </div>
+        <dl>
+            <dt id="pocketGuide" style="margin-left:5em;text-indent:-5em;word-break:break-word;">[1] Howell, C. H.
+                (2017). <i>National Geographic Pocket Guide to the Night Sky of North America</i> (Ser. National
+                Geographic Pocket Guide Series). National Geographic. </dt>
+            <dd>
+                <ul>
+                    <li><a
+                            href="https://www.barnesandnoble.com/w/national-geographic-pocket-guide-to-the-night-sky-of-north-america-catherine-herbert-howell/1123918386">Barnes
+                            & Noble</a></li>
+                    <li><a
+                            href="https://www.natgeomaps.com/bk-pocket-guide-to-the-night-sky-of-north-america-1st-edition">National
+                            Geographic</a></li>
+                    <li>ISBN: 978-1-4262-1785-2</li>
+                </ul>
+            </dd>
+            <dt id="audubon" style="margin-left:5em;text-indent:-5em;word-break:break-word;">[2] Chartrand, M. R.
+                (1991). <i>National Audubon Society Field Guide to the Night Sky</i> (Ser. National Audubon Society
+                Field Guides). Alfred A. Knopf. </dt>
+            <dd>
+                <ul>
+                    <li><a
+                            href="https://www.barnesandnoble.com/w/national-audubon-society-field-guide-to-the-night-sky-national-audubon-society/1000420077?ean=9780679408529">Barnes
+                            & Noble</a></li>
+                    <li><a
+                            href="https://www.penguinrandomhouse.com/books/119977/national-audubon-society-field-guide-to-the-night-sky-by-national-audubon-society/">Penguin
+                            Random House</a></li>
+                    <li>ISBN: 978-0-679-40852-9</li>
+                </ul>
+            </dd>
+        </dl>
+    </section>
+
+    <hr class="rounded">
+
+    <section class="images">
+        <div>
+            <h1>Image Resources</h1>
+            <p><a href="https://www.photopea.com/">Photopea</a>: Free In-browser Photo Editor</p>
+        </div>
+        <div class="faviconImg">
+            <h2>Favicon Image</h2>
+            <p><a href="https://www.favicon.cc/">Favicon Maker</a></p>
+            <p>Favicon&nbsp;<img src="Images/favicon.ico"></p>
+            <p>Image downloaded to make favicon. 150x150 pixels.</p>
+            <img src="Images/52504158265_a2d889f060_q.jpg">
+            <p>Embed of original image from Flickr</p>
+            <a data-flickr-embed="true"
+                href="https://www.flickr.com/photos/nasawebbtelescope/52504158265/in/album-72177720301006030/"
+                title="NASA’s Webb Catches Fiery Hourglass as New Star Forms"><img
+                    src="https://live.staticflickr.com/65535/52504158265_8322601464_o.png"
+                    style="margin:auto;width:100%;height:auto;" alt="NASA’s Webb Catches Fiery Hourglass as New Star Forms [Image description: 
+                    An hourglass-shaped, multi-color cloud set against the black, starry background of space. This cloud of dust and gas is 
+                    illuminated by light from a protostar, a star in the earliest stages of formation. The upper “bulb” of the hourglass is 
+                    orange, while the lower “bulb” transitions from white to dark blue. Together, the two bulbs stretch out like butterfly 
+                    wings turned 90 degrees to the side. Extending from the upper and lower bulbs are long, wispy filaments of color, looking 
+                    almost like burning fire. In the center of the hourglass shape is a small, dark demarcation line. This line is an edge-on 
+                    view of a protoplanetary disk, a disk of material being pulled into a star as it forms.]"></a>
+            <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <h3>Caption</h3>
+            <p>"The protostar within the dark cloud L1527, shown in this image from NASA’s James Webb Space Telescope
+                Near-Infrared Camera (NIRCam), is embedded within a cloud of material feeding its growth. Ejections from
+                the star have cleared out cavities above and below it, whose boundaries glow orange and blue in this
+                infrared view. The upper central region displays bubble-like shapes due to stellar “burps,” or sporadic
+                ejections. Webb also detects filaments made of molecular hydrogen that has been shocked by past stellar
+                ejections. The edges of the cavities at upper left and lower right appear straight, while the boundaries
+                at upper right and lower left are curved. The region at lower right appears blue, as there’s less dust
+                between it and Webb than the orange regions above it." <a
+                    href="https://webbtelescope.org/contents/media/images/2022/055/01GGWCXTEXGJ0C3FWSCB3SDBV5">Webb
+                    Space Telescope Resource Gallery: L1527 and Protostar (NIRCam Image)</a></p>
+        </div><br>
+        <div class="headerImg">
+            <h2>Header Image</h2>
+            <img src="https://c.pxhere.com/photos/bc/f6/milky_way_star_starry_sky_galaxy_beautiful_nature_impressive_night-1438039.jpg!d"
+                srcset="https://c.pxhere.com/photos/bc/f6/milky_way_star_starry_sky_galaxy_beautiful_nature_impressive_night-1438039.jpg!d"
+                style="margin:auto;width:100%;height:auto;" alt="galaxy, sky, atmosphere, purple, astronomical object, night, spiral galaxy, universe, star, nebula, milky way, astronomy, 
+                darkness, space, computer wallpaper, outer space, constellation, midnight, Free Images In PxHere">
+            <h3>Description</h3>
+            <p>The free high-resolution photo of galaxy, sky, atmosphere, purple, astronomical object, night, spiral
+                galaxy, universe, star, nebula, milky way, astronomy, darkness, space, computer wallpaper, outer space,
+                constellation, midnight<br>
+                @Felix Mittermeier, taken with an ILCE-6300 07/02 2018 The picture taken with 15/1s, ISO 5000<br>
+                The image is released free of copyrights under Creative Commons CC0.<br>
+                You may download, modify, distribute, and use them royalty free for anything you like, even in
+                commercial applications. Attribution is not required.</p>
+        </div>
+        <div class="constellationImg">
+            <h2>Constellation Images</h2>
+            <ul>
+                <li><a href="https://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</a></li>
+                <li><a href="https://www.iau.org/">International Astronomical Union (IAU)</a></li>
+                <ul>
+                    <li><a href="https://www.iau.org/public/faq/">FAQ</a></li>
+                    <li><a href="https://www.iau.org/public/themes/constellations/">Constellations</a></li>
+                </ul>
+            </ul>
+        </div>
+        <div>
+            <h2>Other Pictures</h2>
+            <ul>
+                <li><a href="https://www.freepik.com/">Freepik</a>: Asset site for photos, designs, and mockups</li>
+                <li><a href="https://apod.nasa.gov/apod/">Astronomy Picture of the Day</a></li>
+                <li><a href="http://wikisky.org/">WikiSky</a>: An Iteractive Sky Map</li>
+            </ul>
+        </div>
+    </section>
+
+    <hr class="rounded">
+
+    <section class="other">
+        <div>
+            <h1>Other Resources</h1>
+        </div>
+        <ul>
+            <li><a href="https://www.dummytextgenerator.com/">Dummy Text Generator</a></li>
+            <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+            <ul>
+                <li><a href="https://www.w3schools.com/html/default.asp">W3Schools HTML</a></li>
+                <li><a href="https://www.w3schools.com/css/default.asp">W3Schools CSS</a></li>
+                <li><a href="https://www.w3schools.com/howto/default.asp">W3Schools How To</a></li>
+            </ul>
+            <li><a href="https://stackoverflow.com/">Stack Overflow</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PL8dPuuaLjXtPAJr1ysd5yGIyiSFuh0mIL">CrashCourse:
+                    Astronomy</a></li>
+            <li><a href="https://nightsky.jpl.nasa.gov/download-view.cfm?Doc_ID=699">Night Sky Network</a>: Printable
+                Monthly Sky Charts</li>
+            <li><a href="https://skyandtelescope.org/interactive-sky-chart/">Sky and Telescope Interactive Sky Chart</a>
+            </li>
+        </ul>
+    </section>
+
+    <hr class="rounded">
+
+    <div class="commentContainer">
+        <form method="post" name="comment" action="javascript:void(0)">
+            <label for="commentBox"><i class="fa fa-comment"></i> Have any comments or
+                questions?</label><br>
+            <textarea id="commentBox" name="commentBox" cols="50" rows="3" maxlength="1000"
+                placeholder="Doesn't submit anywhere"></textarea><br>
+            <label for="email">Email: </label>
+            <input id="email" name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            <button type="submit" disabled>Submit</button>
+            <button type="reset"><i class="fa fa-remove"></i></button>
+        </form>
+    </div>
+
+</body>
+
+<footer>
+    <div>
+        <script>
+            $(document).ready(function () {
+                $("footer div").html("Updated on: " + document.lastModified);
+            });
+        </script>
+    </div>
+</footer>
+
+</html>

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Astronomy: Solar System</title>
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="astroStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Solar System</h1>
+        <p>Header <a
+                href="https://pxhere.com/en/photo/1438039?utm_content=shareClip&utm_medium=referral&utm_source=pxhere">Photo
+                by Felix Mittermeier</a> form PxHere</p>
+    </header>
+
+    <nav>
+        <ul id="nav1">
+            <li id="home">
+                <a href="index.html"><i class="fa fa-home"></i>&nbsp;Astronomy: An Introduction</a>
+            </li>
+            <li class="dropdown1">
+                <a href="about.html" class="dropbtn1">What is Astronomy?&nbsp;<i class="fa fa-chevron-down"></i></a>
+                <div class="dropdownContent1">
+                    <a href="amateurAstro.html">Amateur Astronomy</a>
+                    <a href="telescopes.html">Telescopes</a>
+                    <a href="constellations.html">Constellations</a>
+                </div>
+            </li>
+            <li class="active">
+                <a href="objects.html">Types of Objects</a>
+            </li>
+        </ul>
+
+        <ul id="nav2">
+            <li class="active">
+                <a href="visible.html" class="dropbtn2">Visible to the Naked Eye</a>
+            </li>
+            <li class="dropdown2">
+                <a href="deepSky.html" class="dropbtn2">Deep Sky Objects&nbsp;<i class="fa fa-chevron-down"></i></a>
+                <div class="dropdownContent2">
+                    <a href="galaxies.html">Galaxies</a>
+                    <a href="interstellar.html">Interstellar Clouds</a>
+                </div>
+            </li>
+        </ul>
+
+        <ul id="nav3">
+            <li class="dropdown3">
+                <a href="asteroids.html" class="dropbtn3">Asteroids&nbsp;<i class="fa fa-chevron-down"></i></a>
+                <div class="dropdownContent3">
+                    <a href="comets.html">Comets</a>
+                    <a href="meteor.html">Meteor Showers</a>
+                </div>
+            </li>
+            <li class="active1">
+                <a href="solarSystem.html">Solar System</a>
+            </li>
+            <li class="dropdown3">
+                <a href="satellites.html" class="dropbtn3">Satellites</a>
+            </li>
+            <li class="dropdown3">
+                <a href="stars.html" class="dropbtn3">Stars</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Button from  https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+    and https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top -->
+    <button type="button" onclick="topFunction()" id="toTop" title="Go to top"><i class="fa fa-arrow-up"></i>
+        Top</button>
+
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("toTop");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <h1 id="h1Image">
+        <img src="Images/7058956_814-ai.jpg" alt="under construction" width="1030" class="img1">
+        <img src="Images/7058956_814-ai-2.jpg" alt="under construction" width="515" class="img2">
+        <p id="underConstruction">
+            <a
+                href="https://www.freepik.com/free-vector/website-construction-maintenance-work-error_7058956.htm#page=2&query=under%20construction&position=44&from_view=search&track=sph">
+                Image by upklyak</a> on Freepik
+        </p>
+    </h1>
+
+    <div class="videoContainer">
+        <iframe class="video" src="https://www.youtube.com/embed/TKM0P3XlMNA" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+    <p>Orci nibh nascetur turpis integer est. Elementum suspendisse condimentum proin eros fermentum quis at aliquet
+        aliquet nonummy ornare class sapien donec, pretium nec. Feugiat est sodales. Magnis nulla non fusce leo. Primis
+        a imperdiet consectetuer libero nostra vel id. Conubia vitae risus. Ultrices ligula. Nisi vehicula scelerisque
+        ultrices. At nostra semper fusce posuere taciti. Cursus turpis nisl per, vulputate pede posuere hymenaeos quis
+        suscipit fames. Massa cras mauris rutrum mi hac litora in. Volutpat magna porta. Cras dis dictum id Sapien
+        primis. Nunc etiam. Pretium dignissim sit lacus Natoque adipiscing litora iaculis hymenaeos habitant. Nascetur
+        consectetuer fringilla arcu suspendisse feugiat.</p>
+    <br>
+
+    <div id="mainTxt">
+        <h1>The Sun</h1>
+        <div class="videoContainer">
+            <iframe class="video" src="https://www.youtube.com/embed/b22HKFMIfWo" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <p>Class tellus litora aliquet tellus. Potenti suspendisse adipiscing. Donec sollicitudin tempus blandit quisque
+            etiam massa in mattis penatibus cras nam ac. Aenean vulputate vehicula Fusce tempor habitasse auctor nulla
+            rhoncus sem fringilla vel tempor malesuada hymenaeos natoque quam tempus risus dignissim dapibus eget
+            ultrices nam. Aenean massa iaculis elementum Purus accumsan. Integer velit parturient platea litora commodo
+            ante in leo eu litora pellentesque blandit accumsan sem leo sodales fermentum tristique sollicitudin
+            ullamcorper integer Ad. Sodales varius. Varius turpis metus enim morbi. Felis fames congue. Fringilla magnis
+            dis, rutrum euismod suspendisse diam torquent vehicula pede taciti iaculis. Enim phasellus. Sociosqu justo.
+        </p>
+        <br>
+
+        <h1>Mercury</h1>
+        <div class="videoContainer">
+            <iframe class="video" src="https://www.youtube.com/embed/P3GkZe3nRQ0" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <p>Lorem rhoncus senectus elementum vel non et integer purus turpis porttitor, facilisis erat risus elit primis
+            viverra nam orci fermentum elementum feugiat convallis tortor augue facilisi congue. Pellentesque malesuada
+            justo condimentum sapien sociis aliquam Sociis Pede congue ac ultricies hymenaeos fringilla dui. Egestas ac
+            nisl libero semper metus amet rhoncus parturient justo blandit nec consectetuer fusce dui ridiculus Mattis
+            non ligula conubia id eleifend urna porta sem nibh cras inceptos, congue iaculis vitae curabitur luctus.
+            Gravida feugiat malesuada. Id torquent id rutrum in habitant vitae Molestie fusce imperdiet class quisque
+            platea donec pellentesque vitae adipiscing nam mauris tempus accumsan habitasse.</p>
+        <br>
+
+        <h1>Venus</h1>
+        <div class="videoContainer">
+            <iframe class="video" src="https://www.youtube.com/embed/ZFUgy3crCYY" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <p>Dapibus hymenaeos fermentum massa rutrum sociosqu pede. Imperdiet ad dictum ac natoque tincidunt aenean etiam
+            vitae nisl. Ac justo scelerisque nec facilisi aptent ligula. Habitant nostra sit feugiat. Neque duis purus
+            sapien metus venenatis eros sagittis magna senectus. Sit nam maecenas nascetur proin. Posuere consectetuer
+            lacus malesuada nascetur proin mollis. Urna metus rutrum ad varius nonummy. Lacinia vivamus malesuada elit,
+            dolor imperdiet commodo justo, consectetuer. Sapien amet duis tristique curabitur fusce mauris sociis
+            elementum sodales. A consectetuer. Ridiculus taciti eros. Eleifend. Potenti sagittis fusce vivamus mollis ut
+            sodales sem lobortis nulla amet metus luctus nulla tellus integer nisl viverra elementum.</p>
+        <br>
+
+        <h1>Earth</h1>
+        <div class="videoContainer">
+            <iframe class="video" src="https://www.youtube.com/embed/w-9gDALvMF4" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <p>Mus sodales tincidunt ullamcorper montes convallis nibh euismod tristique auctor. Mi porta volutpat suscipit
+            eros varius curabitur suspendisse ac vestibulum pellentesque volutpat mollis potenti per hac, gravida.
+            Hymenaeos. Egestas. Cursus curabitur senectus, vulputate eget elit vehicula viverra libero malesuada,
+            varius. Nec, nisi. Integer suscipit dictumst conubia adipiscing vestibulum lacus varius suscipit ultrices a
+            arcu blandit. Dictumst sociis sodales volutpat ligula interdum interdum convallis etiam in massa amet metus
+            nonummy a odio sodales lacus felis lectus habitant nisl. Pede hendrerit natoque nostra. Sollicitudin
+            interdum primis nisi ultrices porta sociosqu et, porttitor ullamcorper conubia curae; enim. Elit eu non,
+            rhoncus tempor ante.</p>
+        <br>
+
+        <h2>The Moon</h2>
+        <div class="videoContainer">
+            <iframe class="video" src="https://www.youtube.com/embed/mCzchPx3yF8" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <p>Inceptos luctus faucibus penatibus consequat sodales natoque quisque amet rhoncus nec viverra vitae ornare
+            Pharetra rutrum sociis sociis platea mus sapien fames, tempus condimentum nunc urna nec faucibus vivamus
+            torquent sodales nunc magna cursus. Neque sociosqu hendrerit augue nam auctor curabitur laoreet risus.
+            Tempus lobortis penatibus dapibus rutrum elementum. Facilisis ornare praesent proin eu vestibulum accumsan
+            arcu congue adipiscing erat tellus metus magna litora egestas erat posuere habitant tincidunt sem duis justo
+            class venenatis adipiscing blandit. Cum. Turpis class commodo natoque nisl pulvinar taciti duis. Platea
+            magnis dictum. Eleifend feugiat augue libero, semper dapibus. Nec. Vehicula leo in et consequat.</p>
+        <br>
+
+        <h1>Mars</h1>
+        <div class="videoContainer">
+            <iframe class="video" src="https://www.youtube.com/embed/I-88YWx71gE" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <p>Pellentesque ac varius. Dignissim curabitur. Nullam rutrum fringilla bibendum nascetur quis lobortis
+            curabitur. Eros arcu maecenas dictumst mus ac libero convallis. Dictum Ultrices enim ultricies sapien
+            dapibus. Ligula natoque tortor sapien mollis ornare id sapien blandit egestas nam libero iaculis.
+            Ullamcorper odio lectus semper. Elit Faucibus auctor, phasellus tortor quis suscipit consequat venenatis mi
+            nunc nascetur non laoreet. Vulputate consequat bibendum ridiculus mi interdum lorem enim accumsan. Laoreet
+            aliquam sapien interdum ad fusce, tristique etiam pede morbi enim. Sit natoque quisque id odio inceptos ac.
+            Torquent senectus est turpis tortor. Nostra justo posuere massa Congue malesuada platea. Fringilla class
+            habitasse.</p>
+        <br>
+
+        <h1>Jupiter</h1>
+        <div class="videoContainer">
+            <iframe class="video" src="https://www.youtube.com/embed/Xwn8fQSW7-8" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <p>Lobortis. Augue Magna blandit proin arcu sociosqu, cubilia. Porttitor curae; varius. Mus parturient rhoncus
+            leo lectus amet torquent aptent eros euismod cubilia integer adipiscing. Dis integer ipsum pulvinar egestas.
+            Auctor taciti aliquam aenean lectus duis, purus malesuada nisl accumsan fusce massa aliquet metus curabitur
+            pulvinar accumsan quis aenean ultricies risus nonummy at felis. Cum accumsan luctus senectus tincidunt
+            luctus ornare tortor platea amet sociis semper torquent dapibus felis platea nascetur. Sed proin, felis
+            arcu. Eu ad cum lobortis nam montes rhoncus amet torquent vel phasellus nunc ipsum tortor. Sem mi ante
+            consequat consectetuer lectus litora tempus nec a felis rhoncus.</p>
+        <br>
+
+        <h2>Jupiter's Moons</h2>
+        <div class="videoContainer">
+            <iframe class="video" src="https://www.youtube.com/embed/HaFaf7vbgpE" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <p>Nisl duis eleifend class litora imperdiet tempor. Nibh dictumst arcu, cum nisl nostra montes, blandit mauris
+            diam duis cras mauris tincidunt dignissim Porttitor dignissim nisl at commodo nascetur phasellus tellus
+            consequat felis iaculis convallis et varius nisi curabitur ipsum cubilia pulvinar est massa. Pharetra
+            facilisis a. Cubilia venenatis aenean curabitur sagittis laoreet taciti pede parturient, urna sit mi amet
+            sociis fermentum pretium commodo laoreet venenatis sollicitudin dictum felis, varius vel. Morbi accumsan
+            habitant massa potenti turpis dapibus tortor. Odio scelerisque eget accumsan et inceptos curae;. Molestie
+            vulputate et gravida imperdiet id porttitor integer faucibus cras neque. Gravida eget vulputate torquent.
+        </p>
+        <br>
+
+        <h1>Saturn</h1>
+        <div class="videoContainer">
+            <iframe class="video" src="https://www.youtube.com/embed/E8GNde5nCSg" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <p>Metus aliquet litora. Cursus senectus in blandit suscipit. Etiam a suspendisse pharetra nec dolor, pede.
+            Accumsan congue. Nullam vel habitasse eget commodo viverra faucibus mi quis id ipsum ullamcorper proin.
+            Sodales vivamus habitant felis ultrices nunc malesuada sapien taciti maecenas leo montes litora iaculis Id
+            laoreet justo, pharetra eget libero. Inceptos parturient luctus aliquet Fusce amet sagittis, est elit dictum
+            velit penatibus. Urna felis suscipit est augue. Nostra, sodales viverra. Cum aptent. Bibendum. Laoreet
+            auctor. Placerat vehicula curabitur felis sollicitudin porttitor rhoncus libero class morbi blandit,
+            hymenaeos mattis neque. Habitant odio, et. Proin eu tristique nec mus mus. Mollis egestas.</p>
+        <br>
+
+        <div class="videoContainer">
+            <iframe class="video" src="https://www.youtube.com/embed/1hIwD17Crko" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div><br>
+
+        <h1>Uranus</h1>
+        <p>Erat feugiat erat placerat velit montes cubilia leo ut pede parturient torquent dui magnis nostra taciti nisl
+            maecenas netus tincidunt laoreet pellentesque tristique aenean sapien, dis condimentum, class pellentesque
+            dapibus per, quisque cras elementum curabitur Quisque primis Quisque sem luctus consectetuer nulla facilisi
+            class, mi ac blandit nunc arcu pretium eget imperdiet consectetuer, conubia. Sem. Felis. Quam nec
+            pellentesque etiam aliquam. Rhoncus leo nostra erat posuere. Ligula parturient auctor viverra. Quisque justo
+            sed a maecenas platea quis. Pede. Orci nascetur aliquet est eros porttitor nunc. Faucibus Condimentum at.
+            Sed facilisi, morbi. Tempor pharetra ridiculus elementum rhoncus habitasse nec. Tempus dictum.</p>
+        <br>
+
+        <h1>Neptune</h1>
+        <p>Diam nisi quis habitant sem suspendisse risus. Magnis natoque vitae tempor rhoncus sed erat inceptos tortor
+            augue. Lorem auctor sociosqu lectus adipiscing. Donec lorem accumsan libero urna lorem sollicitudin cum
+            morbi sodales montes proin sem, nec viverra sed, in hendrerit tortor odio. Maecenas Lorem. Ligula mus aenean
+            hac convallis eros. Volutpat, tempus, netus congue curae; leo per, rutrum ut primis dictum. Imperdiet.
+            Lacinia, gravida euismod. Vestibulum nec scelerisque. Vulputate sapien viverra orci lobortis. Risus praesent
+            bibendum tristique iaculis suspendisse orci eu scelerisque scelerisque vehicula. Ultricies lacus molestie
+            facilisi iaculis sodales torquent commodo, platea quam. Purus tempus, etiam platea in. Luctus.</p>
+        <br>
+
+        <h1>The Oort Cloud</h1>
+        <div class="videoContainer">
+            <iframe class="video" src="https://www.youtube.com/embed/ZJscxTyI__s" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <p>Aliquam mattis conubia massa placerat. Imperdiet ornare porta posuere penatibus gravida. Nibh sapien, metus
+            ipsum orci dolor nullam orci mi feugiat praesent tincidunt pulvinar quis in lacinia aliquam porta. Orci
+            parturient per Platea eu sodales venenatis penatibus tempus convallis nisi. Suscipit, nec nonummy lacus
+            litora feugiat porttitor est aptent malesuada Nonummy tellus egestas venenatis maecenas at posuere gravida
+            sollicitudin leo. Maecenas condimentum, duis quisque natoque. Inceptos inceptos. Curabitur elit est libero
+            fringilla ac pretium vehicula ante tempor enim commodo. Molestie ac cum diam sodales sagittis facilisi quam
+            pede nibh condimentum mauris Bibendum tincidunt sollicitudin, vulputate urna pulvinar aliquam blandit. Odio.
+        </p>
+        <br>
+
+        <h1>Interactive 360 Degree Tour of the Solar System</h1>
+        <p>Best on mobile or tablet devices.</p>
+        <div class="videoContainer">
+            <iframe class="video" src="https://www.youtube.com/embed/0ytyMKa8aps" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <hr class="rounded">
+
+    <div class="commentContainer">
+        <form method="post" name="comment" action="javascript:void(0)">
+            <label for="commentBox"><i class="fa fa-comment"></i> Have any comments or
+                questions?</label><br>
+            <textarea id="commentBox" name="commentBox" cols="50" rows="3" maxlength="1000"
+                placeholder="Doesn't submit anywhere"></textarea><br>
+            <label for="email">Email: </label>
+            <input id="email" name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            <button type="submit" disabled>Submit</button>
+            <button type="reset"><i class="fa fa-remove"></i></button>
+        </form>
+    </div>
+
+</body>
+
+<footer>
+    <p><a href="references.html"><i class="fa fa-asterisk"></i>&nbsp;References</a></p>
+    <div>
+        <script>
+            $(document).ready(function () {
+                $("footer div").html("Updated on: " + document.lastModified);
+            });
+        </script>
+    </div>
+</footer>
+
+</html>

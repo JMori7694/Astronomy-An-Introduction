@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Astronomy: Constellations</title>
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Constellations, Northern Hemisphere, Southern Hemisphere, Zodiac">
+    <link rel="stylesheet" href="astroStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Constellations</h1>
+        <p>Header <a
+                href="https://pxhere.com/en/photo/1438039?utm_content=shareClip&utm_medium=referral&utm_source=pxhere">Photo
+                by Felix Mittermeier</a> form PxHere</p>
+    </header>
+
+    <nav>
+        <ul id="nav1">
+            <li id="home">
+                <a href="index.html"><i class="fa fa-home"></i>&nbsp;Astronomy: An Introduction</a>
+            </li>
+            <li class="active">
+                <a href="about.html">What is Astronomy?</a>
+            </li>
+            <li class="dropdown1">
+                <a href="objects.html" class="dropbtn1">Types of Objects&nbsp;<i class="fa fa-chevron-down"></i></a>
+                <div class="dropdownContent1">
+                    <a href="visible.html">Visible to the Naked Eye</a>
+                    <a href="deepSky.html">Deep Sky Objects</a>
+                </div>
+            </li>
+        </ul>
+
+        <ul id="nav2">
+            <li class="dropdown2">
+                <a href="amateurAstro.html" class="dropbtn2">Amateur Astronomy&nbsp;<i
+                        class="fa fa-chevron-down"></i></a>
+                <div class="dropdownContent2">
+                    <a href="messier.html">Messier Objects</a>
+                    <a href="astroPhoto.html">Astrophotography</a>
+                </div>
+            </li>
+            <li class="dropdown2">
+                <a href="telescopes.html" class="dropbtn2">Telescopes&nbsp;<i class="fa fa-chevron-down"></i></a>
+                <div class="dropdownContent2">
+                    <a href="observatories.html">Observatories</a>
+                </div>
+            </li>
+            <li class="active1">
+                <a href="constellations.html">Constellations</a>
+            </li>
+        </ul>
+
+        <ul id="nav3">
+            <li class="dropdown3">
+                <a href="northConst.html" class="dropbtn3">Northern Hemisphere</a>
+            </li>
+            <li class="dropdown3">
+                <a href="southConst.html" class="dropbtn3">Southern Hemisphere</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Button from  https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+    and https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top -->
+    <button type="button" onclick="topFunction()" id="toTop" title="Go to top"><i class="fa fa-arrow-up"></i>
+        Top</button>
+
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("toTop");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <h1 id="h1Image">
+        <img src="Images/7058956_814-ai.jpg" alt="under construction" width="1030" class="img1">
+        <img src="Images/7058956_814-ai-2.jpg" alt="under construction" width="515" class="img2">
+        <p id="underConstruction">
+            <a
+                href="https://www.freepik.com/free-vector/website-construction-maintenance-work-error_7058956.htm#page=2&query=under%20construction&position=44&from_view=search&track=sph">
+                Image by upklyak</a> on Freepik
+        </p>
+    </h1>
+
+    <div class="videoContainer">
+        <iframe class="video" src="https://www.youtube.com/embed/01QWC-rZcfE" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+
+    <div id="mainTxt">
+        <h1>What are constellations?</h1>
+        <p>Constellations are identifiable star patterns that can be seen at night. Well known ones include The Big
+            Dipper and Orion. Constellations are mainly drawn using the brightest stars, with one being the Alpha Star.
+        </p>
+
+        <h2>The Zodiac</h2>
+        <p>The Zodiac are the twelve constellations that the sun passes through the equatorial line. Depending on what
+            time of year it it, the sun will be in one of the twelve constellations. This is also the basis for
+            Astrology and Sun Signs.</p>
+
+        <h1>Sky Charts</h1>
+        <h2>Interactive Sky Chart<a href="https://skyandtelescope.org/interactive-sky-chart/">&nbsp;<i
+                    class="fa fa-link"></i></a></h2>
+        <iframe src="https://skyandtelescope.org/interactive-sky-chart/" style="margin:auto;width:100%;height:40em"
+            title="Sky and Telescope Interactive Sky Chart"></iframe>
+        <p><a href="https://skyandtelescope.org/interactive-sky-chart/"></a></p>
+
+        <p></p>
+    </div>
+
+    <hr class="rounded">
+
+    <div class="commentContainer">
+        <form method="post" name="comment" action="javascript:void(0)">
+            <label for="commentBox"><i class="fa fa-comment"></i> Have any comments or
+                questions?</label><br>
+            <textarea id="commentBox" name="commentBox" cols="50" rows="3" maxlength="1000"
+                placeholder="Doesn't submit anywhere"></textarea><br>
+            <label for="email">Email: </label>
+            <input id="email" name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            <button type="submit" disabled>Submit</button>
+            <button type="reset"><i class="fa fa-remove"></i></button>
+        </form>
+    </div>
+
+</body>
+
+<footer>
+    <p><a href="references.html"><i class="fa fa-asterisk"></i>&nbsp;References</a></p>
+    <div>
+        <script>
+            $(document).ready(function () {
+                $("footer div").html("Updated on: " + document.lastModified);
+            });
+        </script>
+    </div>
+</footer>
+
+</html>
